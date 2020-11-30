@@ -1,0 +1,5 @@
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en
+User-Agent: Scrapy/2.4.1 (+https://scrapy.org)
+Accept-Encoding: gzip, deflate
+Cookie: bokete_session=f65daec613c9a4081adc6a03c802193886860adc

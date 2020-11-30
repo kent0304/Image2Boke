@@ -1,0 +1,14 @@
+Content-Type: text/plain;charset=UTF-8
+Date: Sat, 28 Nov 2020 05:41:18 GMT
+Server: nginx/1.15.8
+Last-Modified: Mon, 28 Sep 2020 08:11:59 GMT
+Etag: W/"8a9c527f18aba5fc267834637e0681d6"
+Set-Cookie: bokete_session=f65daec613c9a4081adc6a03c802193886860adc; domain=.bokete.jp; path=/; expires=Fri, 26-Feb-2021 05:41:18 GMT
+Cache-Control: public, max-age=2592000
+Content-Encoding: gzip
+Vary: Accept-Encoding
+X-Cache: Hit from cloudfront
+Via: 1.1 0a3f9dcf3b4ff75d26bebebd94a52e87.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: NRT12-C4
+X-Amz-Cf-Id: 1m7DOQs-dCcOSyMv7CN2S-REPfn2kOUeX5py2Fo4p92h3izqndXFyw==
+Age: 5783
