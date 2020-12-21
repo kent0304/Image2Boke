@@ -6,9 +6,15 @@
 import scrapy
 
 
-class BokescrapingItem(scrapy.Item):
-	text = scrapy.Field()
-	image_url = scrapy.Field()
-	# image = scrapy.Field()   
-	# pass
+class Odai(scrapy.Item):
+    number = scrapy.Field()
+    image_url = scrapy.Field()
+    bokes = scrapy.Field()
+    pass
 
+
+class Boke(scrapy.Item):
+    text = scrapy.Field()
+    star = scrapy.Field()
+    number = scrapy.Field()
+    pass

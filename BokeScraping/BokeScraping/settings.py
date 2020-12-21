@@ -11,6 +11,7 @@ BOT_NAME = 'BokeScraping'
 
 SPIDER_MODULES = ['BokeScraping.spiders']
 NEWSPIDER_MODULE = 'BokeScraping.spiders'
+MIN_ODAI_STAR = 50
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
@@ -62,9 +63,9 @@ DOWNLOAD_DELAY = 1
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-# ITEM_PIPELINES = {
-#    'BokeScraping.pipelines.BokescrapingPipeline': 300,
-# }
+ITEM_PIPELINES = {
+   'BokeScraping.pipelines.BokescrapingPipeline': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
@@ -81,10 +82,10 @@ DOWNLOAD_DELAY = 1
 
 # Enable and configure HTTP caching (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html#httpcache-middleware-settings
-# HTTPCACHE_ENABLED = True
-# HTTPCACHE_EXPIRATION_SECS = 0
-# HTTPCACHE_DIR = 'httpcache'
-# HTTPCACHE_IGNORE_HTTP_CODES = []
-# HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
-# DEPTH_LIMIT = 5
-# RETRY_ENABLED = False
+HTTPCACHE_ENABLED = True
+HTTPCACHE_EXPIRATION_SECS = 0
+HTTPCACHE_DIR = 'httpcache'
+HTTPCACHE_IGNORE_HTTP_CODES = []
+HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+DEPTH_LIMIT = 5
+RETRY_ENABLED = False
